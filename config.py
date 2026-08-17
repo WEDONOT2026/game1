@@ -1,0 +1,27 @@
+import pygame
+
+# 窗口尺寸
+W = 600
+H = 650
+GRID_SIZE = 20
+W_GRID = W // GRID_SIZE
+H_GRID = (H - 50) // GRID_SIZE
+
+# 颜色
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+DARK_GREEN = (0, 180, 0)
+LIGHT_GRAY = (40, 40, 40)
+BLUE = (0, 0, 255)
+DARK_BLUE = (0, 0, 180)
+YELLOW = (255, 255, 0)
+ORANGE = (255, 165, 0)
+GRAY = (100, 100, 100)
+
+# 游戏参数
+INVINCIBLE_DURATION = 3.0
+LEVELS_PER_MAP = 10
+MAX_LIVES = 3
+INITIAL_LIVES = 3
